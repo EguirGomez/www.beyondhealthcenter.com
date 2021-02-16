@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+.row {
+    margin-bottom: 0px;
+}
+
+.clearfix {
+    clear: both!important;
+}
+
+.pad-less {
+    padding: 0px 0px!important;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    background-color: transparent;
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover,
+a:active {
+    text-decoration: none;
+    background-color: transparent;
+    color: #000;
+    text-decoration: none;
+}
+
+footer {
+    margin-top: 0 !important;
+    padding: 10px 0px;
+    background-color: #fff!important;
+    color: #000!important;
+}
+
+footer a {
+    color: #777!important;
+}
+
+
+/* ============= section css ============= */
+
+nav {
+    height: auto !important;
+    padding: 0px 0px 0px 0px;
+    background: none!important;
+    transition: all 0.2s ease-in-out;
+    margin: auto;
+    box-shadow: none!important;
+    text-transform: uppercase;
+}
+
+nav ul a {
+    font-size: 1.1rem;
+    color: #fff!important;
+    line-height: 65px;
+    transition: all 0.4s;
+    font-weight: 700;
+}
+
+nav ul a:hover {
+    background-color: rgba(0, 0, 0, 0)!important;
+}
+
+nav ul li.active2 a,
+nav ul li:hover a {
+    color: #fff!important;
+    background: #f88b29!important;
+}
+
+nav ul li {
+    position: relative;
+    line-height: normal;
+    background: none!important;
+}
+
+.menu {
+    display: block;
+    text-align: center;
+    float: none !important;
+}
+
+.menu li {
+    display: inline-block;
+    float: none !important;
+}
+
+.logo {
+    float: left;
+}
+
+.topop {
+    background: #fff;
+    padding: 20px 0px;
+}
+
+.menu-f {
+    background: #0e66a9;
+}
+
+.tel {
+    text-align: baseline;
+    text-align: right;
+    line-height: 1.1;
+}
+
+.tel2 {
+    text-align: baseline;
+}
+
+.t1 {
+    font-size: 24px!important;
+}
+
+.t2 {
+    font-size: 18px!important;
+}
+
+.t3 {
+    font-size: 40px!important;
+}
+
+.t4 {
+    font-size: 40pt!important;
+    line-height: 1;
+}
+
+.der {
+    text-align: right;
+}
+
+.facebook {
+    float: left;
+    margin: 0px 15px 10px 0px;
+}
+
+.gordito {
+    font-weight: 700;
+}
+
+.lijero {
+    font-weight: lighter;
+}
+
+.c-mora-l {
+    color: #923dbe;
+}
+
+.c-mora-f {
+    background: #923dbe;
+}
+
+.c-azc-l {
+    color: #19aee2;
+}
+
+.cuadro-gris {
+    background: #ebebeb;
+    text-align: center;
+    padding: 30px;
+    min-height: 420px;
+    margin-bottom: 10px;
+}
+
+.cuadro-gris .parra {
+    color: #000;
+    font-size: 12pt;
+    line-height: 1.7;
+    font-weight: lighter;
+}
+
+.c-azo-f {
+    background: #267dc1;
+}
+
+.c-vd-f {
+    background: #bac95c;
+}
+
+.c-azc-f {
+    background: #19aee2;
+}
+
+.c-nara-f {
+    background: #f88b29;
+}
+
+.c-fucsia-f {
+    background: #b459a8;
+}
+
+.moto1 {
+    background: url(../img/moto1.jpg) fixed bottom center;
+    background-size: cover;
+    padding: 50px 0px;
+}
+
+.icon {
+    margin: auto;
+    width: 80px;
+    margin-top: 25px;
+}
+
+.cuadros {
+    padding: 10px;
+    min-height: 150px;
+    margin-top: 10px;
+}
+
+.spacio {
+    padding: 30px 0px;
+}
+
+.spacio2 {
+    padding: 10px;
+}
+
+.linea-vd {
+    background: #9bd423;
+    height: 30px;
+}
+
+.lineas {
+    border-left: 1px dotted #e9e9e9;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.noso {
+    padding: 50px 0px;
+}
+
+.parra {
+    color: #fff;
+    font-size: 14pt;
+    line-height: 1.7;
+}
+
+
+/* ============= section css ============= */
+
+
+/*FORMULARIO*/
+
+.form-control {
+    background: #fff!important;
+    border-radius: 0px!important;
+    border: 0px;
+    border-bottom: 0px!important;
+    border-left: 5px solid #0055a3!important;
+    color: #000;
+}
+
+.input-field label {
+    margin-left: 20px!important;
+}
+
+input {
+    margin: 0 0 8px 0!important;
+}
+
+
+/* FIN FORMULARIO*/
+
+.btn {
+    margin-top: 10px!important;
+    color: #fff!important;
+    background: #f88b29!important;
+    padding: 7px 40px!important;
+    margin: auto;
+    border: 1px solid #f88b29!important;
+    height: auto!important;
+    font-size: 14pt;
+    font-weight: lighter;
+    border-radius: 50px!important;
+}
+
+.btn:hover {
+    background: #267dc1!important;
+    border: 1px solid #267dc1!important;
+}
+
+@media screen and (max-width: 1200px) {
+    .moto1 .container,
+    .spacio .container {
+        width: 98%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .tel,
+    .tel2 {
+        text-align: center;
+    }
+    .topop {
+        text-align: center;
+    }
+    .cuadro-gris {
+        padding: 30px 10px;
+        min-height: 250px;
+        margin-bottom: 20px;
+    }
+    .container {
+        width: 100%;
+    }
+    .der,
+    .izq {
+        text-align: center;
+    }
+    .cuadros {
+        min-height: 100px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    footer,
+    .parra {
+        text-align: center;
+    }
+    .t1 {
+        font-size: 20px;
+    }
+    .t2 {
+        font-size: 16px;
+    }
+    .t3 {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .gordito {
+        font-weight: 700;
+        font-size: 15pt;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .gordito {
+        font-weight: 700;
+        font-size: 12pt;
+    }
+}
